@@ -10,3 +10,6 @@ if (idade>=18){
 function trocar(elemento){
     elemento.innerHTML = "Obrigado por vir confirmar";
 }
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
